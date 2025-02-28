@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Akhila</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61de31a64e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <div class="content">
+                <div class="logo-section">
+                    <h1>AKHILA</h1>
+                    <h2 class="role-text">Full Stack Developer</h2>
+                    <p class="intro-text">Hi, I am Akhila Thota</p>
+                    <ul class="nav-menu">
+                        <li><a href="#" class="nav-link active">Home</a></li>
+                        <li><a href="#" class="nav-link">About</a></li>
+                        <li><a href="#" class="nav-link">Education</a></li>
+                        <li><a href="#" class="nav-link">Portfolio</a></li>
+                        <li><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div id="about-me">
+        <div class="about-content">
+            <!-- Left Section: Image -->
+            <div class="about-image">
+                <img src="images/logo3.png" alt="About Me Image">
+            </div>
+
+            <!-- Right Section: About Me Text -->
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I am an enthusiastic aspiring <strong>Full Stack Developer</strong> with a passion for developing scalable and efficient end-to-end software solutions. 
+                    I am currently pursuing a <strong>Master’s in Applied Computer Science</strong>, which has provided me with a strong foundation in 
+                    <strong>data engineering, system analysis, and software development</strong>.
+                    <br><br>
+                    My expertise includes <strong>Python, MySQL, Power BI, and full-stack development technologies</strong>. I am skilled in **both front-end and back-end development**, 
+                    with a keen interest in **building dynamic web applications, designing databases, working with RESTful APIs, and creating robust server-side systems**.
+                    <br><br>
+                    I am driven by a **problem-solving mindset** and take a **data-driven approach** to software development. My goal is to **deliver high-performance, user-friendly applications** 
+                    while continuously expanding my technical capabilities. I thrive in **collaborative environments** and am eager to contribute to **innovative projects** that push the boundaries of technology.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="tabs">
+        <button class="tab-link" onclick="openTab(event, 'skills')">Skills</button>
+        <button class="tab-link" onclick="openTab(event, 'education')">Education</button>
+        <button class="tab-link" onclick="openTab(event, 'internship')">Internship</button>
+    </div>
+
+    <div id="skills" class="tab-contents">
+        <ul>
+            <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+            <li><span>Web Development</span><br />Web app Development</li>
+            <li><span>App Development</span><br />Building Android/iOS apps</li>
+        </ul>
+    </div>
+
+    <div id="education" class="tab-contents">
+        <ul>
+            <li><span>MASTER OF SCIENCE IN APPLIED COMPUTER SCIENCE - 2026</span><br />
+                Grand Valley State University, Michigan, USA
+            </li>
+            <li><span>BACHELOR OF ENGINEERING IN COMPUTER SCIENCE - Jul 2020 - Jul 2024</span><br />
+                Jansons Institute Of Technology, India<br />CGPA: 8.5
+            </li>
+        </ul>
+    </div>
+
+    <div id="internship" class="tab-contents">
+        <ul>
+            <li><span>Web Development Internship</span><br />Corizo (ID: 1739622063350)</li>
+        </ul>
+    </div>
+       <!-- My Services Section -->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-paint-brush"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Crafting visually appealing and user-friendly interfaces to enhance user experience. Specializing in wireframing, prototyping, and modern UI trends.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive and scalable web applications using modern frameworks. Expertise in front-end, back-end, and full-stack solutions.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>Developing high-performance Android and iOS apps with a seamless user experience. Skilled in cross-platform development using React Native and Flutter.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio / Projects Section -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div class="project-item">
+                    <h3>House Price Prediction Model</h3>
+                    <p>Developed a machine learning model using Python, pandas, and scikit-learn to predict house prices with 92% accuracy.</p>
+                </div>
+                <div class="project-item">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Built a full-stack web application featuring product catalogs, cart functionality, and secure checkout.</p>
+                </div>
+                <div class="project-item">
+                    <h3>MedShop Management System</h3>
+                    <p>Designed an interface for pharmacists to manage and update inventory efficiently.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Accessibility Tool for the Visually Impaired</h3>
+                    <p>Developed a real-time object detection and scene interpretation tool using computer vision models.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Contact Section -->
+   <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> akhilathota6@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +1 616-318-4904</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/akhilathoota6"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/akhila-thota-746354254"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Cover Letter.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Copyright &copy; Akhila. Made with <i class="fa-regular fa-heart"></i></p>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontents, tablinks;
+            tabcontents = document.getElementsByClassName("tab-contents");
+            for (i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active");
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+
+</body>
+</html>
+
+
